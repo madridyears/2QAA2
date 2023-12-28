@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>River Academy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@600&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+  <style>
+
+    .navbar-brand{
+      font-family: 'Tilt Neon', sans-serif;
+    }
+    .navbar-nav {
+      font-family: 'Nova Square', sans-serif;
+    }
+    .miniheader{
+      font-family: 'Poppins', sans-serif;
+      color: #0a1238;
+    }
+    .updatesandeventscontent a{
+      color: #07066b;
+      text-decoration: none;
+    }
+    .updatesandeventscontent a:hover{
+      color: #12109f;
+      text-decoration: underline;
+    }
+    .linkscontent {
+      border-color: #e0b310;
+    }
+
+    .sidenav{
+        position: absolute;
+        z-index: 500;
+        background-color: white;
+        overflow-x: hidden;
+        font-family: 'Ubuntu Mono', monospace;
+        padding-right: 25px;
+    }
+
+    .sidenav a{
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: black;
+      display: block;
+    }
+
+    .sidenav a:hover{
+      background-color: #e2e2e2;
+    }
+
+    .main{
+        margin-left: 140px;
+        font-size: 28px;
+        padding: 0px 10px;
+    }
+
+    h1{
+        background-color: #ecbf1e;
+        font-family: 'Tilt Neon', sans-serif;
+        border-top: 5px;
+        border-top: 5px;
+        border-right: 20px;
+        border-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        z-index: 500;
+    }
+
+    h2{
+      margin-left: 25px;
+      background-color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      z-index: 1000;
+    }
+
+    p{
+      margin-left: 25px;
+    }
+
+    @media screen and (max-width: 400px){
+      .sidenav{
+        text-align: center;
+        height: 200px;
+        width: 360px;
+      }
+
+      .sidenav a{
+        text-align: center;
+        width: 250px;
+      }
+
+      h1{
+        text-align: center;
+        width: 345px;
+      }
+
+      h2{
+        position: relative;
+        top: 150px;
+        right: 15px;
+      }
+
+      p{
+        position: relative;
+        top: 150px;
+        right: 15px;
+      }
+
+      .about{
+        position: relative;
+        top: 150px;
+      }
+
+      .wall{
+        position: relative;
+        top: 150px;
+        right: 15px;
+      }
+
+      h5{
+        position: relative;
+        bottom: 400px;
+      }
+
+      .list-unstyled{
+        position: relative;
+        bottom: 400px;
+      }
+
+      .list-unstyled1{
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        bottom: 1000px;
+        left: 200px;
+      }
+
+      footer{
+        position: relative;
+        top: 150px;
+    }
+    }
+
+    html, body{
+        min-height: 100%;
+    }
+
+    .list-unstyled1{
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        bottom: 1000px;
+        left: 200px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">           
+  <img src="bannerlogoalt2.png" class="img-fluid x-auto d-block" alt="banner"> 
+</div>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ecbf1e;">
+    <a class="navbar-brand" href="#">RIVER</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="academicspage.html">Academics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactpage.html">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-12">
+          <img src = "guard.jpg" alt = "guard" class = "img-fluid x-auto d-block center">
+        </div>
+      </div>
+    </div>
+
+  <div class = "container">
+    <div class = "row">
+      <div class = "sub-bg">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+      <div class = "col-md-12">
+        <h1><b>ABOUT US</b></h1>
+          <div class = "col-md-3 col-sm-12 col-xs-12">
+            <div class = "sidenav">
+              <ul>
+                <li>
+                  <a href = # class = "active">History</a>
+                </li>
+
+                <li>
+                  <a href = "founder.html">Founder</a>
+                </li>
+
+                <li>
+                  <a href = "alumni.html">Our Alumni</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class = "col-md-9">
+        <div class = "subpage-content">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <div class = "miniheader">
+        <h2 class = "border border-warning p-2"><b>HISTORY</b></h2>
+        &nbsp;
+        &nbsp;
+        <p style = "font-size: 20px;"><b>Welcome to River Academy</b></p>
+        <p>&nbsp;</p>
+        <div class = "row">
+          <div class = "col-md-12">
+            <div class = "wall">
+          <img src = "aboutus.jpg" alt = "aboutus" style = "float: left; margin: 0px 15px 15px 15px;" class = "img-fluid x-auto d-block center">
+          </div>
+          <span style = "font-size: 18px;" class = "about">
+            Founded in the year of 1987, our esteemed institution, nestled in 
+            the heart of Quezon City, stands as a beacon of knowledge. The visionary 
+            behind our inception, Dr. George Tolentino, envisioned more than just an 
+            academy; he aspired to create a dynamic hub where the flames of scientific
+            knowledge would be kindled, fostering a spirit of collaboration among STEM 
+            professionals.
+            <br><br>
+            Since our inception, we have remained unwaveringly committed to the 
+            pursuit of excellence. Our mission extends beyond the mere transmission 
+            of knowledge; it is a dedication to empowering the next generation. 
+            Through a tapestry of innovative education and research initiatives, we 
+            strive to equip our students with the tools they need to navigate the 
+            ever-evolving landscape of science and technology.
+            <br><br>
+            As we traverse the corridors of time, our legacy is defined by the 
+            countless individuals who have walked through our doors, each leaving an 
+            indelible mark on the world of science. We stand as a testament to the 
+            enduring power of education and the transformative impact it can have on 
+            both individuals and society.
+          </span>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container my-5">
+
+    <footer style="background-color: #e0b310;">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 mb-4">
+          <h4 class="mb-3" style="color: #2b0700;">About Us</h4>
+          <p style="color: #4d1900;">
+            Established in 1987, we are one of the top medical sciences based academies in Quezon City. Our founder Dr. George Tolentino I wanted to create a hub for 
+            advancing medical knowledge and fostering collaboration among healthcare professionals. With a commitment to excellence, we continue to empower the next 
+            generation of medical practitioners through innovative education and research initiatives. We aspire to raise empathetic, compassionate, capable, and 
+            skilled professionals who will lead the medical field to a brighter future.
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h5 class="mb-3" style="color: #4d1900;">Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Home</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">About Us</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Calendar</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #fffcc9;">Registration</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <br><br>
+          <ul class="list-unstyled1 mb-0">
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Facebook</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Twitter</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Youtube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

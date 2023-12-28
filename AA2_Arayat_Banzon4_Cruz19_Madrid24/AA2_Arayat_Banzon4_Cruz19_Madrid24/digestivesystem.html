@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>River Academy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@600&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+  <style>
+
+.sidebar li .submenu{ 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	padding-left: 1rem; 
+	padding-right: 1rem;
+}
+.sidebar .nav-link {
+    font-weight: 500;
+    color: var(--bs-dark);
+}
+.sidebar .nav-link:hover {
+    color: var(--bs-primary);
+}
+
+    .navbar-brand{
+      font-family: 'Tilt Neon', sans-serif;
+    }
+    .navbar-nav {
+      font-family: 'Nova Square', sans-serif;
+    }
+    .miniheader{
+      font-family: 'Poppins', sans-serif;
+      color: #0a1238;
+    }
+    .updatesandeventscontent a{
+      color: #07066b;
+      text-decoration: none;
+    }
+    .updatesandeventscontent a:hover{
+      color: #12109f;
+      text-decoration: underline;
+    }
+    .linkscontent {
+      border-color: #e0b310;
+    }
+    .lead {
+      font-family: 'Tilt Neon', sans-serif;
+    }
+
+    .sectionmenu {
+    font-family: 'Kanit', sans-serif;
+  }
+  .embed-responsive-item {
+  background-color: black;
+}
+  
+  </style>
+
+</head>
+<body>
+
+<div class="container">           
+  <img src="bannerlogoalt2.png" class="img-fluid x-auto d-block" alt="banner"> 
+</div>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ecbf1e;">
+    <a class="navbar-brand" href="#">RIVER</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="academicspage.html">Academics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactpage.html">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+
+  <div class="container">
+
+    <section class="section-content py-3">
+      <div class="row">
+
+        <aside class="col-xs-6 col-md-3"> 
+    <nav class="sidebar card py-2 mb-4">
+      <div class="sectionmenu">
+    <ul class="nav flex-column" id="nav_accordion">
+
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item1" href="#"> English <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item1" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">English 1 </a></li>
+            <li><a class="nav-link" href="#">English 2 </a></li>
+            <li><a class="nav-link" href="engpage.html">English 3: Sonnets </a> </li>
+            <li><a class="nav-link" href="#">English 4 </a> </li>
+            <li><a class="nav-link" href="#">English 5 </a> </li>
+            <li><a class="nav-link" href="#">English 6 </a> </li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item2" href="#"> Filipino <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item2" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Filipino 1 </a></li>
+            <li><a class="nav-link" href="#">Filipino 2 </a></li>
+            <li><a class="nav-link" href="#">Filipino 3 </a></li>
+            <li><a class="nav-link" href="#">Filipino 4 </a></li>
+            <li><a class="nav-link" href="#">Filipino 5 </a></li>
+            <li><a class="nav-link" href="#">Filipino 6 </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item3" href="#"> Integrated Science <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item3" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Integrated Science 1 </a></li>
+            <li><a class="nav-link" href="#">Integrated Science 2 </a></li>
+        </ul>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item4" href="#"> Biology <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item4" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="biopage.html">Biology 1: Biology Laboratory </a></li>
+            <li><a class="nav-link" href="#">Biology 2 </a></li>
+            <li><a class="nav-link" href="#">Biology 3 </a></li>
+            <li><a class="nav-link" href="#">Biology 4 </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item5" href="#"> Physics <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item5" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Physics 1 </a></li>
+            <li><a class="nav-link" href="#">Physics 2 </a></li>
+            <li><a class="nav-link" href="#">Physics 3 </a> </li>
+            <li><a class="nav-link" href="#">Physics 4 </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item6" href="#"> Chemistry <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item6" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Chemistry 1 </a></li>
+            <li><a class="nav-link" href="#">Chemistry 2 </a></li>
+            <li><a class="nav-link" href="#">Chemistry 3 </a> </li>
+            <li><a class="nav-link" href="#">Chemistry 4 </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item7" href="#"> Mathematics <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item7" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Mathematics 1 </a></li>
+          <li><a class="nav-link" href="#">Mathematics 2 </a></li>
+          <li><a class="nav-link" href="#">Mathematics 3 </a></li>
+          <li><a class="nav-link" href="#">Mathematics 4 </a></li>
+          <li><a class="nav-link" href="#">Mathematics 5 </a></li>
+          <li><a class="nav-link" href="#">Mathematics 6 </a></li>
+        </ul>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item8" href="#"> PEHM <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item8" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">PEHM 1 </a></li>
+            <li><a class="nav-link" href="#">PEHM 2 </a></li>
+            <li><a class="nav-link" href="#">PEHM 3 </a></li>
+            <li><a class="nav-link" href="#">PEHM 4 </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item9" href="#"> Computer Science <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item9" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Computer Science 1 </a></li>
+            <li><a class="nav-link" href="#">Computer Science 2 </a></li>
+            <li><a class="nav-link" href="#">Computer Science 3 </a></li>
+            <li><a class="nav-link" href="#">Computer Science 4 </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item10" href="#"> Values Education <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item10" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Values Education 1 </a></li>
+            <li><a class="nav-link" href="#">Values Education 2 </a></li>
+            <li><a class="nav-link" href="#">Values Education 3 </a></li>
+            <li><a class="nav-link" href="#">Values Education 4 </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item11" href="#"> Statistics and Research <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item11" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Statistics 1 </a></li>
+            <li><a class="nav-link" href="#">Research 1 </a></li>
+            <li><a class="nav-link" href="#">Research 2 </a></li>
+            <li><a class="nav-link" href="#">Research 3 </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item12" href="#"> Electives <i class="bi small bi-caret-down-fill"></i> </a>
+        <ul id="menu_item12" class="submenu collapse" data-bs-parent="#nav_accordion">
+          <li><a class="nav-link" href="#">Technology  1 </a></li>
+            <li><a class="nav-link" href="#">Engineering Science 1 </a></li>
+            <li><a class="nav-link" href="#">Marine Studies 1 </a></li>
+            <li><a class="nav-link" href="#">Industrial Technology 1 </a></li>
+            <li><a class="nav-link" href="#">Earth Science 1 </a></li>
+            <li><a class="nav-link" href="#">Psychology 1 </a></li>
+            <li><a class="nav-link" href="#">Biology </a></li>
+            <li><a class="nav-link" href="#">Chemistry </a></li>
+            <li><a class="nav-link" href="#">Physics </a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="extracurriculars.html">Extracurriculars</a>
+      </li>
+
+    </ul>
+  </div>
+    </nav>	
+        </aside>
+
+        <div class="col-xs-12 col-sm-6 col-md-9">
+          <div class="miniheader">
+            <h1 class="border border-warning p-2">
+             Biology Laboratory: <strong>Digestive System Simulation</strong>
+            </h1>
+            </div>
+              <div class="biocontent">     
+                <br> 
+                <h2>Introduction</h2>
+                    <p>Becoming aware of how our body works has led humanity to advance further than any other creature. We’ve even studied our body enough to know how to make it survive in a suit in space. Isn’t that amazing? <br>
+                    <br>
+                    But for us to advance, we must first survive. Our digestive system is extremely important to us since it's the system in charge of absorbing nutrients and providing us with the ‘fuel’ we need to work and do the most basic of tasks. If we’re too careless with it, we risk permanently damaging a vital part of our lives, and if we’re too ignorant, we won’t even know if certain symptoms are concerning or not.<br>
+                    <br>
+                    Through this task, we can help ourselves visualize and understand our bodies’ digestive systems, and we can take a 'look; at the strange yet beautiful complexity of even the most common things in life. Like, for example, what happens to the food we consume? <br>
+                    </p>
+                    <h4>Stages of Food Processing</h4>
+                        <h6>Crushing Stage</h6>
+                        <p>
+                            During the crushing stage, as we put the bananas and crackers in the zip lock, we observed that they could be likened to the swallowed food being dropped into the stomach. This simulates the swallowing process, wherein the chewed food is swallowed and then travels down the esophagus before settling in the stomach awaiting digestion.<br>
+                            <br>
+                            By adding water to the zip lock, we spotted the similarities of the function of the water to the role of saliva in digesting the food. Aside from assisting the food in traveling down the esophagus, saliva also has enzymes like amylase and lingual lipase to digest the starches and fats in our food.<br>
+                            <br>
+                            While crushing the bananas, crackers, water, and lemon juice, we realized that the zip-locked bag represented the stomach. It simulated the mechanical and chemical digestion happening in the stomach, which broke down the food into smaller particles to prepare the small intestine for absorbing them. <br>
+                            <br>
+                            We noticed that as we squished and squeezed the food, our actions strongly resembled the strong muscle contractions of the stomach which broke down larger particles into smaller ones which could be absorbed. It simulated how the muscle contractions crushed, churned, and mixed the gastric juices and food bolus together.<br>
+                            <br>
+                            We realized the similarities between adding the orange juice and the stomach acids/gastric juice when we added it into the ziploc bag. The simulation represented the chemical digestion in the stomach and replicated how the stomach acid breaks down the extracellular matrix and shape of the food, which exposes peptide bonds, and then the protease, pepsin, destroys the bonds which have already been exposed. Proteins are broken down into smaller peptides due to this. <br>
+                            <br>
+                            When we observed the food inside, we inferred that the bananas most likely had quite a lot of carbohydrates due to them being fruits, while the crackers also likely had high amounts of carbohydrates due to them being grain products.<br>
+                        </p> <br>
+                        <h6>Transfer Stage</h6>
+                        <div id="transferstagevid" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9">
+                          <video class="embed-responsive-item" controls autoplay loop muted>
+                                <source src="intestine.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </div>
+                        <br>
+                            <p>
+                            By squeezing the stocking, we could observe that a liquid mixture flowed out of the stocking, while an unknown solid had remained in the stocking. The stocking worked almost like a filter in separating the solids and the liquid. This is most likely a	simulation of the small intestine (the stocking) filtering the nutrients needed by the body (the liquid). <br>
+                            <br>
+                            In our observations, the liquid could be seen to flow out of the stocking and onto the tray. As we had already established that the liquid represented the nutrients needed by the body, it is only logical to assume that they would flow into the body. Therefore, it is our belief that the tray represents the body. <br>
+                            <br>
+                            As the liquid was filtered through the stocking, there was an unidentifiable solid left inside the stocking that solidified even more over time. We identified this to be the solid human waste that could not be digested and absorbed by the digestive system. <br>
+                            <br>
+                            <img src="fecespic.jpg" class="img-fluid x-auto d-block img-thumbnail" alt="feces">
+                            As we used the cups to push the partially solidified content out, we noticed that it bore a resemblance to the excretion of feces. The cup that contained the partially solidified content represented the rectum, while the hole at the bottom represented the anus, and the partially solidified content represented the waste product, feces. Pushing out the partially solidified content depicted the last stage of digestion, defecation, where the body pushes out indigestible matter which cannot be absorbed anymore. <br>
+                            </p> <br>
+                        <h4>Simulation of Absorption</h4>
+                        <div id="absorption" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9">
+                          <video class="embed-responsive-item" controls autoplay loop muted>
+                                <source src="papertowelsubmerge.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </div>
+                        <br>
+                            <p>
+                                We observed that the paper towel that absorbed the most amount of water was the paper that was folded three times. This was most likely because the more we folded the paper towel, the more surface area there was for the water to be absorbed into. <br>
+                                <br>
+                                We took note of the fact that the small intestine was the organ that the paper towels most closely resembled. Since the small intestine has a large surface area due to its folds and wrinkles, it absorbs a lot of nutrients, much like the paper towel that absorbs more and more water as it folds. <br>
+                                <br>
+                            </p>
+                        <h4>Simulation of Bile Action</h4>
+                        <div id="bile" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9">
+                          <video class="embed-responsive-item" controls autoplay loop muted>
+                                <source src="bile.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </div>
+                        <img src="bilepic2.jpg" class="img-fluid x-auto d-block img-thumbnail" alt="bile">
+                        <br>
+                        <p>
+                            
+                        We observed that during the simulation, the container with the dishwashing liquid was foamy and bubbly with some sort of layer with paler liquid at the top. It seemed to be acting as an emulsifier to the water and oil, breaking the larger particles up to be mixed. We noticed that it was similar to how bile, like the dishwashing liquid, breaks down the ‘larger particles’, the fat, into smaller particles, the fatty acids, which can then be absorbed by the body. We believe that it is chemical digestion since it breaks down fats into fatty acids, helping the body absorb them. <br>                            
+                        </p> <br>
+                    <h2>Conclusion</h2>
+                    <p>
+                        Organisms are extremely complex, and even the basic act of consumption isn’t all that simple. Even putting food in our mouth isn’t simple! Our teeth have to physically tear things apart, our saliva has to protect our teeth and help us swallow, and our tongue has to form it into a shape easy enough for us to then make it move to the esophagus. <br>
+                        <br>
+                        Our food is then chemically digested by our stomach, churning and mixing with stomach acid that could quite literally melt metal, and then it is moved slowly to the small intestine, where the majority of the absorption of nutrients and water takes place. It has to be long, wrinkly, and folded to just have enough surface area for food to be digested. Then, even after all that, the large intestine still has to remove as much water from the matter as possible, and only then will it be transferred to the rectum in the form of feces. Then, it comes out of the anus, and there you have it, poop! <br>
+                        <br>
+                        But in all seriousness, it's extremely important for us to understand how our digestive systems work so we may pinpoint any issue whenever we have it. A ‘stomach flu’ could be your small intestine falling apart. A ‘bit of extra watery stool’ could be your large intestine not functioning properly. To see this with our own two eyes helps us visualize and understand our bodies better.
+                    </p>
+              </div>    
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+
+  <div class="container my-5">
+
+    <footer style="background-color: #e0b310;">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 mb-4">
+          <h5 class="mb-3" style="color: #2b0700;">About Us</h5>
+          <p style="color: #4d1900;">
+            Established in 1987, we are one of the top medical sciences based academies in Quezon City. Our founder Dr. George Tolentino I wanted to create a hub for 
+            advancing medical knowledge and fostering collaboration among healthcare professionals. With a commitment to excellence, we continue to empower the next 
+            generation of medical practitioners through innovative education and research initiatives. We aspire to raise empathetic, compassionate, capable, and 
+            skilled professionals who will lead the medical field to a brighter future.
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4">
+          <h5 class="mb-3" style="color: #4d1900;">links</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="index.html" style="color: #fffcc9;">Home</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">About Us</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Calendar</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #fffcc9;">Registration</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <br><br>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Facebook</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Twitter</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #fffcc9;">Youtube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</div>
+
+</body>
+</html>
